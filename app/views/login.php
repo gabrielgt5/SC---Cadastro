@@ -60,7 +60,7 @@ a {
         <a href="home.php" id="back">Voltar</a>
         <h1 class="text-center">LOGIN</h1>
 
-        <form class="needs-validation">
+        <form class="needs-validation" action="../controllers/testLogin.php" method="POST">
             <div class="form-group was-validated">
                 <input class="form-control" type="text" name="email" placeholder="Email" required>
             </div>
