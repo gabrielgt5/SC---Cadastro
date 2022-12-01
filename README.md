@@ -13,4 +13,3 @@ Aprenda como criar um fantástico sistema com:
   <li>...</li>
 </ul>
 <br>
-Nossa playlist: https://youtube.com/playlist?list=PLSHNk_yA5fNjoIRNHV-3FprsN3NWPcnnK
