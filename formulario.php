@@ -56,17 +56,17 @@
                 <br>
                 <div class="input-group flex-nowrap">
                     <label for="nome" class="input-group-text" id="addon-wrapping">Nome completo</label>
-                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" required>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="addon-wrapping" required>
                 </div>
                 <br>
                 <div class="input-group flex-nowrap">
                     <label for="senha" class="input-group-text" id="addon-wrapping" >Senha</label>
-                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="addon-wrapping" required>
                 </div>
                 <br><br>
                 <div class="input-group flex-nowrap">
-                    <input type="text" name="email" id="email" class="inputUser" required>
-                    <label for="email" class="labelInput">Email</label>
+                    <label for="email" class="input-group-text" id="addon-wrapping">Email</label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping" required>
                 </div>
                 <br><br>
                 <div class="input-group flex-nowrap">
