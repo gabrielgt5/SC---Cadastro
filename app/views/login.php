@@ -53,11 +53,23 @@ a {
     font-size: 15px;
 }
 
+.home{
+  background-color: indigo;
+  color: white;
+}
+
+.home:hover{
+  background-color: rgb(108, 3, 183);
+  color: white;
+}
+
+
+
     </style>
 </head>
 <body>
     <div class="login">
-        <a href="home.php" id="back">Voltar</a>
+        
         <h1 class="text-center">LOGIN</h1>
 
         <form class="needs-validation" action="../controllers/testLogin.php" method="POST">
@@ -71,7 +83,8 @@ a {
                 <input class="form-check-input" type="checkbox" id="checkbox">
                 <label class="form-check-label" for="check">lembre-se</label>
             </div>
-            <input class="btn btn-outline-dark w-100" type="submit" name="submit" value="Enviar">
+            <input class="btn btn-dark w-100 mb-2" type="submit" name="submit" value="Enviar">
+            <a href="home.php" class="btn home w-100" id="back">Voltar para home</a>
         </form>
 
     </div>
