@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SITE | GN</title>
+    <title>Home Page</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+            background: linear-gradient(to right, rgb(0, 0, 0), rgb(7.18, 7.18, 2.92));
             text-align: center;
             color: white;
         }
