@@ -30,7 +30,7 @@
     <title>SISTEMA | GN</title>
     <style>
         body{
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background: linear-gradient(to right, rgb(7.18, 7.18, 2.92), rgb(7.18, 7.18, 2.92));
             color: white;
             text-align: center;
         }
