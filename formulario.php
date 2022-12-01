@@ -53,25 +53,24 @@
         <form action="formulario.php" method="POST">
             <fieldset>
                 <legend><b>Fórmulário de Clientes</b></legend>
-                <br>
-                <div class="input-group flex-nowrap">
+                
+                <div class="input-group flex-nowrap  mb-3">
                     <label for="nome" class="input-group-text" id="addon-wrapping">Nome completo</label>
                     <input type="text" name="nome" id="nome" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="addon-wrapping" required>
                 </div>
-                <br>
-                <div class="input-group flex-nowrap">
+              
+                <div class="input-group flex-nowrap  mb-3">
                     <label for="senha" class="input-group-text" id="addon-wrapping" >Senha</label>
                     <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="addon-wrapping" required>
                 </div>
-                <br><br>
-                <div class="input-group flex-nowrap">
+               
+                <div class="input-group flex-nowrap  mb-3">
                     <label for="email" class="input-group-text" id="addon-wrapping">Email</label>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping" required>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="seuemail@exemplo.com" aria-label="seuemail@exemplo.com" aria-describedby="addon-wrapping" required>
                 </div>
-                <br><br>
-                <div class="input-group flex-nowrap">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                    <label for="telefone" class="labelInput">Telefone</label>
+                <div class="input-group flex-nowrap  mb-3">
+                    <label for="telefone" class="input-group-text" id="addon-wrapping">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="+xx (xx) x-xxxx-xxxx" aria-label="+xx (xx) x-xxxx-xxxx" aria-describedby="addon-wrapping" required>
                 </div>
                 <p>Sexo:</p>
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
