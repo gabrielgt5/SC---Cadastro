@@ -8,7 +8,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
             text-align: center;
             color: white;
         }
@@ -24,18 +24,21 @@
         a{
             text-decoration: none;
             color: white;
-            border: 3px solid dodgerblue;
-            border-radius: 10px;
-            padding: 10px;
+            border: 5px solid indigo;
+            border-radius: 20px;
+            padding: 20px;
         }
         a:hover{
-            background-color: dodgerblue;
+            background-color: indigo;
         }
     </style>
 </head>
 <body>
-    <h1>Se inscreva no canal ;)</h1>
-    <h2>Prof. Gustavo Neitzke</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Faça seu login ou cadastre-se</h1>
     <div class="box">
         <a href="login.php">Login</a>
         <a href="formulario.php">Cadastre-se</a>
