@@ -7,7 +7,7 @@
     <title>Home Page</title>
     <style>
         body{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial Black, Helvetica, sans-serif;
             background: linear-gradient(to right, rgb(0, 0, 0), rgb(7.18, 7.18, 2.92));
             text-align: center;
             color: white;
@@ -39,9 +39,10 @@
     <br>
     <br>
     <h1>Faça seu login ou cadastre-se</h1>
+    <h2> Crud dos cria 😎😎😎</h2>
     <div class="box">
-        <a href="login.php">Login</a>
-        <a href="formulario.php">Cadastre-se</a>
+        <a href="login.php">Login 🔐</a>
+        <a href="formulario.php">Cadastre-se 📝</a>
     </div>
 </body>
 </html>
