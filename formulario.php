@@ -51,7 +51,7 @@
     <a href="home.php">Voltar</a>
     <div class="container">
         <form action="formulario.php" method="POST">
-            <fieldset>
+
                 <legend><b>Fórmulário de Clientes</b></legend>
                 
                 <div class="input-group flex-nowrap  mb-3">
@@ -72,7 +72,7 @@
                     <label for="telefone" class="input-group-text" id="addon-wrapping">Telefone</label>
                     <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="+xx (xx) x-xxxx-xxxx" aria-label="+xx (xx) x-xxxx-xxxx" aria-describedby="addon-wrapping" required>
                 </div>
-                <p>Sexo:</p>
+                <legend><b>Sexo</b></legend>
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
                 <br>
@@ -101,7 +101,6 @@
                 </div>
                 <br><br>
                 <input type="submit" name="submit" id="submit">
-            </fieldset>
         </form>
     </div>
 </body>
