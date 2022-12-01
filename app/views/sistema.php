@@ -1,12 +1,12 @@
 <?php
     session_start();
-    include_once('config.php');
+    include_once('../helpers/config.php');
     // print_r($_SESSION);
     if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
     {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: login.php');
+        header('Location: ../views/login.php');
     }
     $logado = $_SESSION['email'];
     if(!empty($_GET['search']))
@@ -121,6 +121,8 @@
         </table>
     </div>
 </body>
+
+
 <script>
     var search = document.getElementById('pesquisar');
 
@@ -136,4 +138,5 @@
         window.location = 'sistema.php?search='+search.value;
     }
 </script>
+
 </html>

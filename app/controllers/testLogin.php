@@ -4,7 +4,7 @@
     if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']))
     {
         // Acessa
-        include_once('config.php');
+        include_once('../helpers/config.php');
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
@@ -23,18 +23,18 @@
         {
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
-            header('Location: login.php');
+            header('Location: ../views/login.php');
         }
         else
         {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
-            header('Location: sistema.php');
+            header('Location: ../views/sistema.php');
         }
     }
     else
     {
         // Não acessa
-        header('Location: login.php');
+        header('Location: ../views/sistema.php');
     }
 ?>

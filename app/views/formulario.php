@@ -18,7 +18,7 @@
         // print_r('<br>');
         // print_r('Endereço: ' . $_POST['endereco']);
 
-        include_once('config.php');
+        include_once('../helpers/config.php');
 
         $nome = $_POST['nome'];
         $email = $_POST['email'];
@@ -33,7 +33,7 @@
         $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,senha,email,telefone,sexo,data_nasc,cidade,estado,endereco) 
         VALUES ('$nome','$senha','$email','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')");
 
-        header('Location: login.php');
+        header('Location: ../views/login.php');
     }
 
 ?>
@@ -62,7 +62,7 @@
     </style>
 </head>
 <body>
-    <a href="app/views/home.php" class="btn btn-danger">Voltar</a>
+    <a href="home.php" class="btn btn-danger">Voltar</a>
     <div class="container">
         <form action="formulario.php" method="POST">
 

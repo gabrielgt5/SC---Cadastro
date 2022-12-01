@@ -1,5 +1,4 @@
 # Sistema de cadastro 🖥
-Aprenda como criar um fantástico sistema com:
 <br>
 <ul>
   <li>Tela de Home</li>

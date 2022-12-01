@@ -1,5 +1,5 @@
 <?php
-    include_once('config.php');
+    include_once('../helpers/config.php');
 
     if(!empty($_GET['id']))
     {
@@ -23,12 +23,12 @@
         }
         else
         {
-            header('Location: sistema.php');
+            header('Location: ../views/sistema.php');
         }
     }
     else
     {
-        header('Location: sistema.php');
+        header('Location: ../views/sistema.php');
     }
 ?>
 <!DOCTYPE html>
@@ -113,7 +113,7 @@
     </style>
 </head>
 <body>
-    <a href="sistema.php">Voltar</a>
+    <a href="../views/sistema.php">Voltar</a>
     <div class="box">
         <form action="saveEdit.php" method="POST">
             <fieldset>
