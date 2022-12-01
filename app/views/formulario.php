@@ -46,9 +46,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="formulario.css">
     <title>Registro</title>
+    <style>
+          body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, rgb(0, 0, 0), rgb(7.18, 7.18, 2.92));
+            color: white;
+        }
+
+        .container{
+            background-color: indigo;
+            border-radius: 20px;
+            padding: 30px;
+        }
+
+    </style>
 </head>
 <body>
-    <a href="home.php">Voltar</a>
+    <a href="app/views/home.php" class="btn btn-danger">Voltar</a>
     <div class="container">
         <form action="formulario.php" method="POST">
 
@@ -82,25 +96,25 @@
                 <input type="radio" id="outro" name="genero" value="outro" required>
                 <label for="outro">Outro</label>
                 <br><br>
-                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                <input type="date" name="data_nascimento" id="data_nascimento" required>
-                <br><br><br>
-                <div class="input-group flex-nowrap">
-                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                    <label for="cidade" class="labelInput">Cidade</label>
+                <label for="data_nascimento" class="input-group-text" id="addon-wrapping"><b>Data de Nascimento:</b></label>
+                <input type="date" class="form-control mb-3" name="data_nascimento" id="data_nascimento" required>
+                
+                <div class="input-group flex-nowrap mb-3">
+                    <label for="cidade" class="input-group-text" id="addon-wrapping">Cidade</label>
+                    <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Sua cidade" aria-label="Sua cidade" aria-describedby="addon-wrapping" required>
                 </div>
-                <br><br>
-                <div class="input-group flex-nowrap">
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
-                    <label for="estado" class="labelInput">Estado</label>
+            
+                <div class="input-group flex-nowrap mb-3">
+                    <label for="estado" class="input-group-text" id="addon-wrapping">Estado</label>
+                    <input type="text" name="estado" id="estado" class="form-control" placeholder="Seu estado" aria-label="Seu estado" aria-describedby="addon-wrapping" required>
                 </div>
-                <br><br>
-                <div class="input-group flex-nowrap">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                    <label for="endereco" class="labelInput">Endereço</label>
+               
+                <div class="input-group flex-nowrap mb-3">
+                    <label for="endereco" class="input-group-text" id="addon-wrapping">Endereço</label>
+                    <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Seu endereço" aria-label="Seu endereço" aria-describedby="addon-wrapping" required>
                 </div>
-                <br><br>
-                <input type="submit" name="submit" id="submit">
+                
+                <input type="submit" class="btn btn-dark" name="submit" id="submit">
         </form>
     </div>
 </body>
